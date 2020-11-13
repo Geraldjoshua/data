@@ -4,8 +4,8 @@
 
 #SBATCH --partition=curie
 
-#SBATCH --time=10:00
-#SBATCH --nodes=1 --ntasks=1 --cpus-per-task=32
+#SBATCH --time=60:00
+#SBATCH --ntasks=1 --cpus-per-task=32
 
 #SBATCH --mem-per-cpu=2000
 
